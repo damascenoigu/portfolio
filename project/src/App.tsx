@@ -165,6 +165,15 @@ function App() {
               githubUrl="#"
               demoUrl="#"
             />
+
+           <ProjectCard
+              title="Sistema de agendamento para barbearia"
+              description="Sistema simples de agendamento de horário para barbearias masculinas."
+              tech={['HTML', 'CSS', 'TypeScript', 'JavaScript']}
+              features={['versatilidade', 'Armazenamento local']}
+              githubUrl="#https://github.com/damascenoigu/sistema-de-agendamento"
+              demoUrl="#"
+            />
           </div>
         </div>
       </section>
@@ -175,8 +184,8 @@ function App() {
           <h2 className="text-3xl font-bold mb-12 text-[#9380DB]">Experiência Profissional</h2>
           <div className="space-y-12">
             <TimelineItem
-              title="Residência em Software – Fase 2"
-              description="Atuação no desenvolvimento full stack, com foco em arquitetura de software e boas práticas."
+              title="Residência em Software Restic 36 – Cepedi"
+              description="Atuação no desenvolvimento full stack, com foco em arquitetura de software e boas práticas em Angular e .Net"
             />
             <TimelineItem
               title="Estágio em Desenvolvimento – CGTI | IFBA"
@@ -203,14 +212,14 @@ function App() {
             </div>
             <div className="space-y-6">
               <a
-                href="mailto:seuemail@email.com"
+                href="mailto:damascenoigu@gmail.com"
                 className="flex items-center gap-3 text-gray-300 hover:text-[#00FFFF] transition-colors"
               >
                 <Mail className="w-6 h-6" />
-                seuemail@email.com
+                damascenoigu@gmail.com
               </a>
               <a
-                href="https://github.com/IgorDamasceno"
+                href="https://github.com/damascenoigu"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-3 text-gray-300 hover:text-[#00FFFF] transition-colors"
@@ -219,7 +228,7 @@ function App() {
                 github.com/IgorDamasceno
               </a>
               <a
-                href="https://linkedin.com/in/IgorDamasceno"
+                href="https://www.linkedin.com/in/igor-damasceno-44a492313/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-3 text-gray-300 hover:text-[#00FFFF] transition-colors"
